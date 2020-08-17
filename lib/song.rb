@@ -8,8 +8,6 @@ class Song
     @genre = genre
   end
   
-  @@count = 0
-  
   def .count
     put self.size
   end
