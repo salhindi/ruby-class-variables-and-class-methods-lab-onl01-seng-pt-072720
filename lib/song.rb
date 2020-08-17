@@ -10,4 +10,5 @@ class Song
   
   def self.count
     puts self.count.size
+  end
 end
