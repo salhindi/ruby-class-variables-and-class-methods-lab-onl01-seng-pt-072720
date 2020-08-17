@@ -1,7 +1,12 @@
 class Song
-  def initialize(name = "hit me baby one more time", artist, genre)
+  def initialize(name, artist, genre)
     @name = name
     @artist = artist
     @genre = genre
   end
+  
+  def name
+    @name
+  end
+  
 end
