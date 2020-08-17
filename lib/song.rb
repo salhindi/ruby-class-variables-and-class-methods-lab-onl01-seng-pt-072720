@@ -9,5 +9,5 @@ class Song
   end
   
   def self.count
-  
+    puts self.count.size
 end
